@@ -1,6 +1,6 @@
 {
-  "name": "mammoth",
-  "version": "1.4.16",
+  "name": "mammoth_extend",
+  "version": "1.4.16-beta.0",
   "author": "Michael Williamson <mike@zwobble.org>",
   "description": "Convert Word documents from docx to simple HTML and Markdown",
   "keywords": [
@@ -14,7 +14,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwilliamson/mammoth.js.git"
+    "url": "https://github.com/Lingdeqing/mammoth.js.git"
   },
   "dependencies": {
     "argparse": "~1.0.3",
@@ -46,8 +46,7 @@
   },
   "scripts": {
     "pretest": "eslint lib test",
-    "test": "mocha 'test/**/*.tests.js'",
-    "prepublish": "make mammoth.browser.min.js"
+    "test": "mocha 'test/**/*.tests.js'"
   },
   "license": "BSD-2-Clause"
 }
