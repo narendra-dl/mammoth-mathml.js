@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/Lingdeqing/mammoth.js.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "argparse": "~1.0.3",
     "bluebird": "~3.4.0",
